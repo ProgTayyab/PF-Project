@@ -40,6 +40,20 @@ for(int i=0;i<6;i++){
 if{
     NewPassword[i]==RewritePassword[i];
 }
+else{
+    printf("Passwords dosnt matches \n");
+    printf("Create your password   :must consist of a specialchar,digit,upper,lowercase character: \n");
+    for(int i=0;i<6;i++){
+    scanf("%d",NewPassword[i]);   
+    }
+    printf("Enter Passoword again : \n");
+
+    for(int i=0;i<6;i++){
+    scanf("%d",RewritePassword[i]);   
+    }
+    
+    // looop will run which will take you back to the new password
+}
 
 }
 
